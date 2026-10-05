@@ -16,6 +16,8 @@ const UPLOAD_DIR = __DIR__ . '/uploads';
 const MAX_IMG_MB = 5;
 const MAX_VID_MB = 200;
 
+
+
 /* ================= 2. DATABASE (AUTO-CREATED) ================= */
 try {
     $pdo = new PDO("mysql:host=127.0.0.1;charset=utf8mb4", $DB_USER, $DB_PASS,
