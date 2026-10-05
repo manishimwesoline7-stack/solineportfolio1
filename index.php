@@ -1,15 +1,4 @@
-
-
 <?php
-/* ================================================================
-   💜 MANISHIMWE SOLINE — PORTFOLIO v3 (single file, FIXED)
-   FIXED: blank pages bug (reveal animation crashed on non-home pages)
-   ROLES: admin = uploads content, replies in chat, resets scores
-          user  = registers, reads full posts, watches videos,
-                  plays games, saves scores, chats with Soline
-   Admin login → soline / 123solinepromax  (change below!)
-   All data stored in MySQL database: soline_db
-   ================================================================ */
 session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
